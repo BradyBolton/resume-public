@@ -1,0 +1,214 @@
+\documentclass{article}
+\usepackage{enumerate, amssymb}
+\usepackage[margin=.7in]{geometry}
+\usepackage{scrextend}
+\usepackage{indentfirst}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\code}[1]{\texttt{#1}} % Monospace font (code etc.)
+
+% NOTE: Commented out sections may either be considered too old or there is simply not enough space
+
+\thispagestyle{empty}
+\begin{document}
+	\begin{center}
+	
+		\huge{Brady Bolton}
+		
+		\large{bradybw@vt.edu}
+
+		\large{\code{www.github.com/BradyBolton}}
+	
+	\end{center}
+
+\vline
+
+\textbf{\large{Education}} \quad Computer Science (Primary), Computational Modelling \& Data Analytics (Secondary), \textit{Fall 2021}
+
+\qquad \qquad \qquad \hspace{10pt} Mathematics and Statistics Minors
+
+\qquad \qquad \qquad \hspace{10pt} GPA: 3.64/4.0 (\textit{Magna Cum Laude})
+
+\vline
+
+\textbf{\large{Languages}} \quad Python, Golang, JS/CSS/HTML, Java, C/C++, R, MATLAB, \LaTeX, Lisp, TypeScript
+
+\textbf{\large{Skills}} \qquad \qquad Linux, React, Django/DRF, Git, Docker/Docker-Compose, Kubernetes, gRPC, proto3 
+
+\qquad \qquad \qquad \hspace{10pt} CUDA/MPI/MPICC,  BACnet (IP/MSTP)
+
+\vline
+
+\textbf{\large{Related Experience}} 
+
+\vspace{5pt}
+
+{\setlength{\leftskip}{15pt}
+
+{\fontfamily{qcs}\selectfont Software Engineering Intern, NetApp, Summer 2021}
+\vspace{-5pt}
+\begin{itemize}
+	\setlength{\leftskip}{15pt}
+	\setlength\itemsep{-0.5em}
+	\item[$-$] Wrote a containerized full-stack web-app for discovering and managing switch firmware
+	\item[$-$] Requests routed through Nginx reverse-proxy and Gunicorn WSGI deployed with docker-compose
+	\item[$-$] Implemented Django + Django-Rest-Framework back-end to handle user requests in parallel using asyncio
+\end{itemize}
+
+
+{\fontfamily{qcs}\selectfont Software Engineering Intern, Progeny Systems, Summer 2020}
+\vspace{-5pt}
+\begin{itemize}
+	\setlength{\leftskip}{15pt}
+	\setlength\itemsep{-0.5em}
+	\item[$-$] Worked with microservices in a cloud-native stack implemented in Golang, proto3, and gRPC 
+	\item[$-$] Troubleshooted container networks with \code{tcpdump}, \code{smcroute}, and \code{iptables}
+	\item[$-$] Migrated a docker-compose setup to Kubernetes using Helm
+\end{itemize}
+
+
+{\fontfamily{qcs}\selectfont Software Engineering Co-op, Daikin Applied Americas, Spring 2020 – Summer 2020}
+\vspace{-5pt}
+\begin{itemize}
+	\setlength{\leftskip}{15pt}
+	\setlength\itemsep{-0.5em}
+	\item[$-$] Building automation systems (BAS) integration testing using BACnet IP/MSTP, MODBUS, Webkit 
+	\item[$-$] Used Wireshark and PCAP to investigate networking bugs on BAS systems
+	\item[$-$] Focused on Python best-practices, development, and documentation using PyTest, Cython, and Sphinx
+\end{itemize}
+
+% {\fontfamily{qcs}\selectfont Controls Programmer, Virginia Tech Hyperloop, Fall 2019}
+% \vspace{-5pt}
+% \begin{itemize}
+% 	\setlength{\leftskip}{15pt}
+% 	\setlength\itemsep{-0.5em}
+% 	\item[$-$] Using QT platform facilitating real-time sensor data transfer to a remote GUI and communicate with SpaceX's track telemetry system via UDP
+% 	\item[$-$] Working closely with aerospace and mechanical sub-teams to understand and simulate pod mechanics
+% \end{itemize}
+
+{\fontfamily{qcs}\selectfont Undergraduate Research Assistant, Socha Labs, Spring 2019 – Summer 2019}
+\vspace{-5pt}
+\begin{itemize}
+	\setlength{\leftskip}{15pt}
+	\setlength\itemsep{-0.5em}
+	\item[$-$] Responsible for programming and testing servo motor controllers and data-acquisition for robotic fish
+	\item[$-$] Worked closely with faculty at the Socha Lab of Biomedical Engineering and Mechanics (BEAM) to empirically study bio-mechanical models of fish locomotion and its effect on speed and mechanical efficiency
+\end{itemize}
+
+% {\fontfamily{qcs}\selectfont Co-founder and Lead Designer, Zorse Code LLC, Summer of 2017 – Summer 2018}
+% \vspace{-5pt}
+% \begin{itemize}
+% 	\setlength{\leftskip}{15pt}
+% 	\setlength\itemsep{-0.5em}
+% 	\item[$-$] Co-founded a gaming start-up that incorporates augmented reality 
+% 	\item[$-$] Designed and produced Graphical User Interface, artwork, and navigation system
+% \end{itemize}
+
+% \vline
+
+% \textbf{\large{Interests}} 
+% 
+% \vspace{3pt}
+% 
+% \begin{tabular}{l l}
+% 	Networking and Self-Hosting: running NextCloud, WireGaurd, PiHole on a small home-lab \\
+% 	Linux: Debian as daily-driver, ZFS, and an undisclosed amount of dot-file tweaking \\
+% 	Other tech-related topics: Emacs/SpaceMacs, Org-mode, NeoVim \\
+% \end{tabular} 
+% 
+% \vline
+% \vspace{0.5cm}
+
+% \textbf{\large{Ongoing Projects}} 
+% 
+% \vspace{5pt}
+% 
+% {\setlength{\leftskip}{15pt}
+% 
+%       % MicroPython implementation on ESP8266 via Micropython
+% 	{\fontfamily{qcs}\selectfont My Dog Sends Me Texts}
+% 	\vspace{-5pt}
+% 	\begin{itemize}
+% 		\setlength{\leftskip}{15pt}
+% 		\setlength\itemsep{-0.5em}
+% 		\item[$-$] Make-shift capacitive touch pads that my dog presses to send SMS messages to family group-chat
+% 		\item[$-$] Bestowed upon a small brown canine the power of a three word vocabulary: food, water, walk
+% 		\item[$-$] Runs on an ESP8266 with callbacks tied to Twilio's API (using MicroPython)
+% 	\end{itemize}
+% 
+% 	{\fontfamily{qcs}\selectfont Designated Driver App}
+% 	\vspace{-5pt}
+% 	\begin{itemize}
+% 		\setlength{\leftskip}{15pt}
+% 		\setlength\itemsep{-0.5em}
+% 		\item[$-$] Front-end implemented with Next.js/React.js
+% 		\item[$-$] Containerized Golang Fiber backend (Express.js inspired)
+% 		\item[$-$] PWA implementation to support multiple platforms
+% 	\end{itemize}
+% }
+% \setlength{\leftskip}{0cm}
+
+\setlength{\leftskip}{0cm}
+\textbf{\large{Projects}} 
+
+\vspace{5pt}
+
+{\setlength{\leftskip}{15pt}
+
+	{\fontfamily{qcs}\selectfont RideChariot.app (on-going)}
+	\vspace{-5pt}
+	\begin{itemize}
+		\setlength{\leftskip}{15pt}
+		\setlength\itemsep{-0.5em}
+		\item[$-$] Uber-like app (PWA) to make ride-sharing quick and easy for Virginia Tech's fraternities
+		% \item[$-$] Partnered with Alpha Sigma Phi for collaboration, user feedback, and beta-testing
+		\item[$-$] Front-end in React with static site generation using Next.JS (targeting a Jamstack-inspired architecture)
+		\item[$-$] Dockerized back-end with a \code{gofiber} internal API using MongoDB, Amazon SNS, and Traefik load-balancing
+	\end{itemize}
+
+        % MicroPython implementation on ESP8266 via Micropython
+	{\fontfamily{qcs}\selectfont My Dog Sends Me Texts (on-going)}
+	\vspace{-5pt}
+	\begin{itemize}
+		\setlength{\leftskip}{15pt}
+		\setlength\itemsep{-0.5em}
+		\item[$-$] Make-shift capacitive touch pads that my dog presses to send SMS messages to family group-chat
+		\item[$-$] Runs on an ESP8266 MCU calling Twilio's API from a local WiFi network (via MicroPython)
+		\item[$-$] Bestow animals a rudimentary vocabulary (e.g. food, treat, water, walk)
+	\end{itemize}
+
+	{\fontfamily{qcs}\selectfont CLI Cheatsheet for Aliases}
+	\vspace{-5pt}
+	\begin{itemize}
+		\setlength{\leftskip}{15pt}
+		\setlength\itemsep{-0.5em}
+		\item[$-$] A Golang ncurses-like tool to parse aliases and spit out an organized cheatsheet on the CLI
+		\item[$-$] Organize your aliases into categories by including directives in your dot files
+		\item[$-$] Supports configuration, paging, vim-inspired controls, and on-the-fly reformatting
+	\end{itemize}
+
+	{\fontfamily{qcs}\selectfont Ray Tracing with Parallel Computing}
+	\vspace{-5pt}
+	\begin{itemize}
+		\setlength{\leftskip}{15pt}
+		\setlength\itemsep{-0.5em}
+	\item[$-$] Rendered scenes on VT's compute clusters by simulating light rays via parallel processing
+	\item[$-$] Implemented with MPI (Message Passing Interface), MPICH, and via Nvidia's CUDA platform using GPUs
+	\end{itemize}
+}
+\setlength{\leftskip}{0cm}
+
+
+\textbf{\large{Awards and Activities}}
+
+\vspace{3pt}
+
+\begin{tabular}{l l}
+	ACM Programming Team (Fall 2018)	& ICPC Team Honorable Mention Award (2018) \\
+	Hyperloop at Virginia Tech 	& Dean's List \\
+	Philosophy Club 			& Virtual Entities (AI Programming) \\
+	% 4th International MIT Zero Robotics Alliance	& Microsoft Imagine Cup Competition \\
+\end{tabular} 
+
+\end{document}
