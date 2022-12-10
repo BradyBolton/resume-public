@@ -3,6 +3,7 @@
 \usepackage[margin=.7in]{geometry}
 \usepackage{scrextend}
 \usepackage{indentfirst}
+\usepackage{fancyhdr}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
@@ -19,24 +20,30 @@
 		\large{bradybw@vt.edu}
 
 		\large{\code{www.github.com/BradyBolton}}
-	
+
+        % TODO: maybe make a footer mentioning that the source can be found in github
+        %       since there's a lot of stuff commented out to make this resume 1 page
+
 	\end{center}
 
 \vline
 
-\textbf{\large{Education}} \quad Computer Science (Primary), Computational Modelling \& Data Analytics (Secondary), \textit{Fall 2021}
+
+\textbf{\large{Education}} \quad Computer Science BSc at Virginia Tech
+
+\qquad \qquad \qquad \hspace{10pt} Computational Modelling \& Data Analytics BSc (Secondary Degree)
 
 \qquad \qquad \qquad \hspace{10pt} Mathematics and Statistics Minors
 
-\qquad \qquad \qquad \hspace{10pt} GPA: 3.64/4.0 (\textit{Magna Cum Laude})
+\qquad \qquad \qquad \hspace{10pt} 3.64 GPA (\textit{Magna Cum Laude})
 
 \vline
 
-\textbf{\large{Languages}} \quad Python, Golang, JS/CSS/HTML, Java, C/C++, R, MATLAB, \LaTeX, Lisp, TypeScript
+\textbf{\large{Languages}} \quad Golang, TypeScript/JS, C\#, Python, SQL, Java, C, R, MATLAB, \LaTeX, Lisp
 
-\textbf{\large{Skills}} \qquad \qquad Linux, React, Django/DRF, Git, Docker/Docker-Compose, Kubernetes, gRPC, proto3 
+\textbf{\large{Skills}} \qquad \qquad Linux, React, .NET MVC, Django/DRF, Bash/sh, SASS, Git, Docker/Docker-Compose, K8s,
 
-\qquad \qquad \qquad \hspace{10pt} CUDA/MPI/MPICC,  BACnet (IP/MSTP)
+\qquad \qquad \qquad \hspace{10pt}  AWS, ADO, gRPC/proto3, Postgres, SQLServer, Snowflake, CUDA/MPI/MPICC,  BACnet %(IP/MSTP)
 
 \vline
 
@@ -45,6 +52,17 @@
 \vspace{5pt}
 
 {\setlength{\leftskip}{15pt}
+
+{\fontfamily{qcs}\selectfont Associate Developer, Koalafi, Spring 2022-Present}
+\vspace{-5pt}
+\begin{itemize}
+	\setlength{\leftskip}{15pt}
+	\setlength\itemsep{-0.5em}
+    \item[$-$] Late-stage fintech startup offering frictionless financing solutions to brick-and-mortar \& ecommerce businesses
+    \item[$-$] Delivered features to production from IDE to deployment (AWS, ADO, K8s), monitoring (ELK \& TICK stacks, Dynatrace, Segment.io), and on-call production support
+    \item[$-$] Serverless development with AWS Lambda, integrating with OpenTelemetry, SNS, and Slack
+	\item[$-$] Ownership of React front-ends, Golang microservices, and C\# .NET MVC monoliths
+\end{itemize}
 
 {\fontfamily{qcs}\selectfont Software Engineering Intern, NetApp, Summer 2021}
 \vspace{-5pt}
@@ -156,7 +174,7 @@
 
 {\setlength{\leftskip}{15pt}
 
-	{\fontfamily{qcs}\selectfont RideChariot.app (on-going)}
+	{\fontfamily{qcs}\selectfont RideChariot.app}
 	\vspace{-5pt}
 	\begin{itemize}
 		\setlength{\leftskip}{15pt}
@@ -168,7 +186,7 @@
 	\end{itemize}
 
         % MicroPython implementation on ESP8266 via Micropython
-	{\fontfamily{qcs}\selectfont My Dog Sends Me Texts (on-going)}
+	{\fontfamily{qcs}\selectfont My Dog Sends Me Texts}
 	\vspace{-5pt}
 	\begin{itemize}
 		\setlength{\leftskip}{15pt}
@@ -178,15 +196,15 @@
 		\item[$-$] Bestow animals a rudimentary vocabulary (e.g. food, treat, water, walk)
 	\end{itemize}
 
-	{\fontfamily{qcs}\selectfont CLI Cheatsheet for Aliases}
-	\vspace{-5pt}
-	\begin{itemize}
-		\setlength{\leftskip}{15pt}
-		\setlength\itemsep{-0.5em}
-		\item[$-$] A Golang ncurses-like tool to parse aliases and spit out an organized cheatsheet on the CLI
-		\item[$-$] Organize your aliases into categories by including directives in your dot files
-		\item[$-$] Supports configuration, paging, vim-inspired controls, and on-the-fly reformatting
-	\end{itemize}
+	% {\fontfamily{qcs}\selectfont CLI Cheatsheet for Aliases}
+	% \vspace{-5pt}
+	% \begin{itemize}
+	% 	\setlength{\leftskip}{15pt}
+	% 	\setlength\itemsep{-0.5em}
+	% 	\item[$-$] A Golang ncurses-like tool to parse aliases and spit out an organized cheatsheet on the CLI
+	% 	\item[$-$] Organize your aliases into categories by including directives in your dot files
+	% 	\item[$-$] Supports configuration, paging, vim-inspired controls, and on-the-fly reformatting
+	% \end{itemize}
 
 	{\fontfamily{qcs}\selectfont Ray Tracing with Parallel Computing}
 	\vspace{-5pt}
@@ -205,7 +223,8 @@
 \vspace{3pt}
 
 \begin{tabular}{l l}
-	ACM Programming Team (Fall 2018)	& ICPC Team Honorable Mention Award (2018) \\
+	ACM Programming Team % (Fall 2018)
+    & ICPC Team Honorable Mention Award (2018) \\
 	Hyperloop at Virginia Tech 	& Dean's List \\
 	Philosophy Club 			& Virtual Entities (AI Programming) \\
 	% 4th International MIT Zero Robotics Alliance	& Microsoft Imagine Cup Competition \\
