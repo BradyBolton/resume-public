@@ -1,6 +1,6 @@
 # resume
 
-Latex resume and dot graph for college courses.
+Latex resume ~~and dot graph for college courses~~.
 
 Install Latex things:
 
