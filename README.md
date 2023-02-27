@@ -1,5 +1,7 @@
 # resume
 
+(There's a lot of stuff commented out because 1 page is 1 page)
+
 Latex resume ~~and dot graph for college courses~~.
 
 Install Latex things:
